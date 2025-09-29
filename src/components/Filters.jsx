@@ -4,7 +4,7 @@ export default function Filters({ search, setSearch, category, setCategory, sort
       {/* Search */}
       <input
         type="text"
-        placeholder="Our Menu..."
+        placeholder="Search products..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         className="border p-2 rounded w-full md:w-1/3"
